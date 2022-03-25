@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendsTube</title>
+    <link rel="icon" href="images/trendtubelogo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/content.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<!-- <body style="background-image: url('images/trendtubebackground.jpg');background-size: 100% 100%;background-attachment: fixed;background-position: 0 45px;"> -->
+    <body>
+    <!--header section (navbar and logo)-->
+    <header style="width: 100%;z-index: 1;position: fixed;top: 0;background-image: url('images/trendtubeabstract.jpg');">
+    
+        <div class="row p-2 "  >
+
+            <div class="col-md-6 col-3 " style="max-width: 41%;"> 
+
+                <span style="font-size: xx-large;padding-left: 1rem; cursor:pointer" onclick="openNav()">&#9776; </span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a onclick="goToCategories(1)" href="javascript:void(0);">Entertainment</a>
+                    <a onclick="goToCategories(2)" href="javascript:void(0);">Music</a>
+                    <a onclick="goToCategories(3)" href="javascript:void(0);">Films</a>
+                    <a onclick="goToCategories(4)" href="javascript:void(0);">Games</a>
+                    <a onclick="goToCategories(5)" href="javascript:void(0);">Tech</a>
+                    <a onclick="goToAboutUS()" href="javascript:void(0);">About Us</a>
+                  </div>
+               
+
+            </div>
+
+            <div class="col-md-6 col-9"> 
+
+    <a href=""><img src="images/trendtubelogoweb.jpg" alt="trend tube" height="62px" width="190px" class="center"></a>
+
+
+            </div>
+
+        </div>
+    
+    
+    <section > 
+        <div class="container-fluid">
+        <div class=" row">
+
+            <div class="navbar text-center" style="padding-left: 50px;padding-right: 50px;" id="top-nav-main">
+
+                <a class="active col-4 col-md-2" onclick="goToCategories(0)"><i class="fa fa-fw fa-home"></i> Home</a> 
+                <a class=" col-4 col-md-2" onclick="goToCategories(1)"><i class="fas fa-tv"></i> Entertainment</a> 
+                <a class=" col-4 col-md-2" onclick="goToCategories(2)"><i class="fas fa-music"></i> Music</a> 
+                <a class=" col-4 col-md-2" onclick="goToCategories(3)"><i class="fas fa-film"></i> Films</a>
+                <a class=" col-4 col-md-2"onclick="goToCategories(4)"><i class="fas fa-gamepad"></i> Games</a> 
+                <a class=" col-4 col-md-2" onclick="goToCategories(5)"><i class="fas fa-tools"></i> Tech</a>
+                
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+    </header>
+    
+
+        <!--content section-->
+    <article  style="margin-top: 147px;" class="main-content">
+      <div class="text-center ">
+        <h3 style="padding-top: 6px;">POPULAR VIDEOS OF THE WEEK!</h3>
+      </div>   
+    </article>
+
+    <section class="container-fluid main-content">
+      <div class="row" id="main-wrapper-content" >
+       
+      </div>
+    </section>
+
+    <!-- about section start-->
+
+    <section id="about-us" class="container-fluid">
+      <div class="row abt-trendtube">
+        <div class="col">
+          <p> <span class="lighten-name">TrendsTube</span> bring you the week's trending & popular videos of YouTube in different categories and helps
+            to save your internet browsing time! </p>
+        </div>
+      </div>
+      <h2 class="text-center unline">The Team.</h2>
+      <div class="row photo-block">
+          <div class="col-md-3"></div>
+          <div class="col-md-3 mt-1">
+            <div class="card" >
+              <img class="card-img-top" src="./images/1647851005547.jpeg">
+              <div class="card-body">
+                <h5 class="card-title">Muhammed Faris </h5>
+                <h6><i> Co-founder @ TrendsTube</i></h6>
+                <p class="card-text"></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-1">
+            <div class="card" >
+              <img class="card-img-top" src="./images/1647851033355.jpg">
+              <div class="card-body">
+                <h5 class="card-title">Nasif</h5>
+                <h6><i> Co-founder @ TrendsTube </i></h6>
+                <p class="card-text"></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+      </div>
+     
+    </section>
+
+    <!-- about section end-->
+
+    <!--footer-->
+
+   <footer class="container-fluid">
+      <div class="row">
+        
+        <div class="col-md-4">
+            <div class="abt-us">
+              <h5 class="d-none d-sm-block">TrendsTube</h5>
+              <p> TrendsTube bring you the week's trending & popular videos of YouTube in different categories and helps
+                 to save your internet browsing time! </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="social">
+            <h5 class="text-center d-none d-sm-block">SOCIAL</h5>
+            <div class="icon-wrap">
+              <ul>
+                <li><a href="https://www.instagram.com/vindweb.solutions/" target="_blank" style="color: inherit;"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="ml-3"><a href="" style="color: inherit;"><i class="fab fa-facebook fa-2x"></i></a></li> 
+                <li class="ml-3"><a href="" style="color: inherit;"><i class="fab fa-twitter fa-2x"></i></a></li> 
+              </ul>
+            </div>
+            
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="contact">
+            <h5 class="text-center d-none d-sm-block">CONTACT</h5>
+            <div class="icon-wrap">
+            <ul>
+              <li><a href="mailto:trendstubein@gmail.com" style="color: inherit;" ><i class="fas fa-envelope mr-2"></i> trendstubein@gmail.com</a></li>
+              <li><a href="mailto:vindwebsolutions@gmail.com" style="color: inherit;"><i class="fas fa-envelope mr-2"></i> vindwebsolutions@gmail.com</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+         <div class="col-md-2 windweblogo">
+          <div class="">
+            <img src="./images/vindwebsolutions.jpg">
+          </div>
+        </div> 
+      </div>
+      <div class="copy-text">
+        <span> Copyright © 2022 | TrendsTube </span>
+      </div>
+   </footer>
+
+   
+
+   
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/font.js" ></script>
+</body>
+</html>
